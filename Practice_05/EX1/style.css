@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Default Large Screen Layout (3 columns) */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: #79c1e0;
+    color: #1a2e3b;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Media Queries for Breakpoints */
+
+/* 1. Medium-Large Screens (max-width: 1000px) -> 3 columns */
+@media (max-width: 1000px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 10px;
+    }
+}
+
+/* 2. Tablet Screens (max-width: 768px) -> 2 columns */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 3. Mobile Devices (max-width: 480px) -> 1 column */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
