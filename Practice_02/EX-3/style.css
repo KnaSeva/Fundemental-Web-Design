@@ -1,0 +1,18 @@
+/* TODO */
+button{
+    width: 220px;
+    height: 80px;
+    background-color: #e77bbf;
+    border: 5px solid #cb5ba2;
+    border-radius: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #b25c94;
+    border-color: #6e315c;
+}

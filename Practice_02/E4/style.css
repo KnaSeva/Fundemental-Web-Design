@@ -1,0 +1,56 @@
+body{
+    background-color: #f2f2f2;
+    font-family:Arial;
+    width: 300px;
+    margin: 50px auto;    
+}
+.card{
+    width: 300px;
+    min-height: 450px;
+    padding: 20px;
+
+    background-color: white;
+
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:3px solid #476a81;
+}
+.card p{
+    color: #555;
+    margin-top: 5px;
+}
+.card h2{
+    margin-bottom: 5px;
+}
+.card button{
+    background-color: #3498db;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: #21618c;
+}
+.bio{
+    padding-top: 15px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    padding: 3px;
+}
